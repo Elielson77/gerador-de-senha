@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de Exercício</title>
+</head>
+
+<body>
+  <section class="container">
+
+    <h1>Gerador de Senhas</h1>
+
+    <div id="campo-senha">
+      Sua senha aparecerá aqui!
+    </div>
+
+    <div class="inputs">
+      <div>
+        <label for="quantidade-caracteres">Qual o tamanho da senha?</label>
+        <input type="number" id="quantidade-caracteres" value="8">
+      </div>
+      <div>
+        <input type="checkbox" name="maisculas" id="check-maiusculas" checked>
+        <label for="maiusculas">Maiusculas</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="minusculas" id="check-minusculas">
+        <label for="minusculas">Minusculas</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="simbolos" id="check-simbolos">
+        <label for="simbolos">Simbolos</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="numeros" id="check-numeros">
+        <label for="numeros">Números</label>
+      </div>
+
+    </div>
+
+    <button id="gerar-senha">Gerar senha</button>
+
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
